@@ -1,1 +1,1 @@
-# HTML-Table-to-CSV
+# Web Tables-to-CSV
