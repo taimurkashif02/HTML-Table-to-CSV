@@ -18,7 +18,7 @@ class html_csv_parser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if (tag.lower() == 'table'):        #Consider using tag.lower()
-            self.start_table()        # We also have to consider for incorrect tags like putting space after tag or before
+            self.start_table()        # I also have to consider for incorrect tags like putting space after tag or before
 
         if (tag.lower() == 'th'):
             self.start_th()
